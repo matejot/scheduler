@@ -1,0 +1,15 @@
+spring:
+  #  main:
+  #    log-startup-info: false
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/scheduler_db
+    username: root
+    password :
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8089
